@@ -1,0 +1,8 @@
+.navcontent{
+    list-style: none;
+    display: inline-flex;
+    
+}
+.list{
+    text-align: right;
+}
