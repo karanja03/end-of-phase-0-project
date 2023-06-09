@@ -1,8 +1,117 @@
 .navcontent{
     list-style: none;
     display: inline-flex;
+    padding-top: 20px;
     
 }
-.list{
+li{
+    padding-right: 40px;
+    margin-left: 70px;
+    color: plum;
+}
+nav{
     text-align: right;
+    background-color: lightblue;
+    
+}
+.scroll{
+    overflow: auto;
+    padding: 10px;
+    background-color: aliceblue;
+    white-space: nowrap;
+   
+}
+ img{
+    height: 400px;
+    width: 400px;
+ }
+
+
+.wholearea{
+    position: relative;
+}
+.content{
+    position: absolute;
+    bottom: 400px;/*how far is the box from the bottom*/
+    left: 20px;
+    background-color: pink;
+    color: black;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: large;
+    padding-bottom: 60px;/*space inside the textbox*/
+    
+}
+.bimage{
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+.content1{
+    position: absolute;
+    bottom: 150px;
+    right: 20px;
+    background-color: pink;
+    color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: large;
+    line-height: 30px;
+}
+.h2{
+    text-align: center;
+}
+.aboutus{
+    position: absolute;
+    bottom: 60px;
+    left: 20px;
+    background-color: pink;
+    color: black;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: large;
+}
+li{
+    color: black;
+    line-height: 40px;
+}
+a{
+    display: flex;
+    flex-direction: left;
+    padding-bottom: 20px;
+}
+.column{
+    float: left;/*to display them side by side*/
+    width: 31%;
+    margin-bottom: 18px;
+    padding-right: 40px;
+    background-color: lightpink;
+    
+
+
+}
+.titleteam{
+    color: lightskyblue;
+}
+.button{
+    border: white;
+    padding-right: 150px;
+    color: black;
+    background-color: lightblue;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 700;
+    padding-bottom: 20px;
+    font-size: larger;
+}
+label{
+    font-weight: 700;
+    display: block;
+}
+    
+.form{
+    background-color: lightpink;
+    padding-top: 0%;
+}
+input{
+    font-size: larger;
 }
