@@ -12,6 +12,7 @@ li{
 nav{
     text-align: right;
     background-color: lightblue;
+    padding-top: 0px;
     
 }
 .scroll{
@@ -59,8 +60,10 @@ nav{
 }
 .h2{
     text-align: center;
+    color: blueviolet;
+    font-weight: 600;
 }
-.aboutus{
+/*.aboutus{
     position: absolute;
     bottom: 60px;
     left: 20px;
@@ -69,7 +72,7 @@ nav{
     padding-left: 60px;
     padding-right: 60px;
     font-size: large;
-}
+}*/
 li{
     color: black;
     line-height: 40px;
@@ -78,40 +81,159 @@ a{
     display: flex;
     flex-direction: left;
     padding-bottom: 20px;
+    font-size: larger;
 }
 .column{
     float: left;/*to display them side by side*/
-    width: 31%;
+    width: 23%;
     margin-bottom: 18px;
-    padding-right: 40px;
+    padding: 18px;
     background-color: lightpink;
+
     
 
 
 }
 .titleteam{
-    color: lightskyblue;
+    color: blueviolet;
 }
 .button{
     border: white;
-    padding-right: 150px;
+    padding-right: 100px;
+    padding-left: 10px;
     color: black;
     background-color: lightblue;
     justify-content: center;
     cursor: pointer;
     font-weight: 700;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     font-size: larger;
 }
 label{
     font-weight: 700;
     display: block;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
 }
     
 .form{
-    background-color: lightpink;
-    padding-top: 0%;
+    
+    padding-top: 20px;
+    padding-left: 50px;
+    paddi
 }
 input{
     font-size: larger;
 }
+.button2{
+    background-color: lightblue;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+    
+}
+.buybtns{
+    padding: 30px;
+    padding-right: 90px;
+    font-weight: 700;
+    display: inline-flex
+    
+}
+.button3{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: lightblue;
+    border-color: white
+
+    
+}
+.button4{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: lightblue;
+    border-color: white;
+    word-spacing: 1px;
+    
+    
+
+
+}
+.ourproducts{
+    font-weight: 900;
+}
+
+.forminfo{
+    float: left;
+    background-color: lightpink;
+    padding: 90px;
+    margin-right: 0px;
+    display: flex;
+    padding-top: 1px;
+    
+    
+    
+}
+.form{
+    line-height: 3;
+}
+.infoform{
+    padding-left: 450px;
+    padding-top: 0px;
+    font-weight: 600;
+
+}
+.navbarbottom{
+    float: left;
+    padding-left: 0px;
+    display: flex;
+    font-weight: 900;
+    font-size: small;
+    padding-bottom:0px;
+    background-color: lightblue;
+    height: 200px;
+    justify-content: space-evenly;
+    width: 1820px;
+
+    
+}
+.icons{
+    padding-top: 100px;
+    display: flex;
+    padding-left: 100px;
+    
+    
+}
+.location{
+    padding-left: 500px;
+    padding-bottom: 0px;
+    
+}
+i{
+    padding: 10px;
+    padding-bottom: 0px;
+    
+}
+ 
+
+
+    
+
+.logo img{
+    margin-left: 0px;
+    height: 200px;
+    width:200px;
+    
+}
+
+
+    
